@@ -57,8 +57,8 @@ namespace XeroMVC4Example.Controllers
 			{
 				var panlReport = xeroRepo.Reports.RunDynamicReport(new ProfitAndLossReport());
 				var balanceReport = xeroRepo.Reports.RunDynamicReport(new BalanceSheetReport());
-				var arReport = xeroRepo.Reports.RunDynamicReport(new AgedPayablesByContactReport());
-				var apReport = xeroRepo.Reports.RunDynamicReport(new AgedPayablesByContactReport());
+				//var arReport = xeroRepo.Reports.RunDynamicReport(new AgedPayablesByContactReport());
+				//var apReport = xeroRepo.Reports.RunDynamicReport(new AgedPayablesByContactReport());
 
 				if (panlReport != null)
 				{
